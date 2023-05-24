@@ -13,6 +13,7 @@
 		662387D22A1E1A2A00C038A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662387D02A1E1A2A00C038A5 /* Main.storyboard */; };
 		662387D42A1E1A2B00C038A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662387D32A1E1A2B00C038A5 /* Assets.xcassets */; };
 		662387D72A1E1A2B00C038A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662387D52A1E1A2B00C038A5 /* LaunchScreen.storyboard */; };
+		662387E82A1E1BA900C038A5 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662387E72A1E1BA900C038A5 /* Superhero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		662387D32A1E1A2B00C038A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662387D62A1E1A2B00C038A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662387D82A1E1A2B00C038A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662387E72A1E1BA900C038A5 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		662387E22A1E1A7300C038A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				662387E72A1E1BA900C038A5 /* Superhero.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				662387CF2A1E1A2A00C038A5 /* ViewController.swift in Sources */,
 				662387CB2A1E1A2A00C038A5 /* AppDelegate.swift in Sources */,
 				662387CD2A1E1A2A00C038A5 /* SceneDelegate.swift in Sources */,
+				662387E82A1E1BA900C038A5 /* Superhero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
