@@ -35,7 +35,7 @@
         <!--FIND YOUR HERO-->
         <scene sceneID="Jsj-Y6-ezd">
             <objects>
-                <collectionViewController id="2gN-ep-Yav" customClass="SuperHeroesViewController" customModule="Heroes" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="2gN-ep-Yav" customClass="SuperHeroesViewController" customModule="Heroes_Kingfisher" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="sbK-5B-gdX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,7 +47,7 @@
                             <inset key="sectionInset" minX="30" minY="30" maxX="30" maxY="30"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="superhero" id="nVV-U1-3GY" customClass="CollectionViewCell" customModule="Heroes" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="superhero" id="nVV-U1-3GY" customClass="CollectionViewCell" customModule="Heroes_Kingfisher" customModuleProvider="target">
                                 <rect key="frame" x="30" y="30" width="160" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -77,8 +77,8 @@
                                 </constraints>
                                 <size key="customSize" width="160" height="260"/>
                                 <connections>
-                                    <outlet property="imageView" destination="pQK-Lc-f0x" id="z9p-0M-0cU"/>
-                                    <outlet property="mainLabel" destination="0QY-KI-LNP" id="KGF-7V-oqf"/>
+                                    <outlet property="imageView" destination="pQK-Lc-f0x" id="ItM-6D-TX4"/>
+                                    <outlet property="mainLabel" destination="0QY-KI-LNP" id="HXI-1n-65C"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -97,7 +97,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qqH-il-8zz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1181" y="-15"/>
+            <point key="canvasLocation" x="1180.9160305343512" y="-15.492957746478874"/>
         </scene>
     </scenes>
 </document>
