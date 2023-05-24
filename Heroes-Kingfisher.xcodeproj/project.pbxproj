@@ -14,6 +14,7 @@
 		662387D42A1E1A2B00C038A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662387D32A1E1A2B00C038A5 /* Assets.xcassets */; };
 		662387D72A1E1A2B00C038A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662387D52A1E1A2B00C038A5 /* LaunchScreen.storyboard */; };
 		662387E82A1E1BA900C038A5 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662387E72A1E1BA900C038A5 /* Superhero.swift */; };
+		662387EA2A1E26A100C038A5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662387E92A1E26A100C038A5 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		662387D62A1E1A2B00C038A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662387D82A1E1A2B00C038A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662387E72A1E1BA900C038A5 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		662387E92A1E26A100C038A5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		662387E32A1E1A8800C038A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				662387E92A1E26A100C038A5 /* CollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662387EA2A1E26A100C038A5 /* CollectionViewCell.swift in Sources */,
 				662387CF2A1E1A2A00C038A5 /* ViewController.swift in Sources */,
 				662387CB2A1E1A2A00C038A5 /* AppDelegate.swift in Sources */,
 				662387CD2A1E1A2A00C038A5 /* SceneDelegate.swift in Sources */,
